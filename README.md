@@ -1,4 +1,4 @@
-# M13_SparkStreaming_JVM_GCP
+# M13_SparkStreaming_PYTHON_GCP
 1) Create your own project on GCP (currently Google offers trial accounts up to 300$).
 2) You won't be able to create even the smallest Databricks cluster because of Google Quotas. Go to IAM & Admin > Quotas. In filter search for "Persistent Disk SSD". Choose **specific region** for your future clusters, like "us-central1" and edit your quota to be higher than 500 (550 Gb should be enough for the smallest cluster). You'll need to give your phone number and description of the request, but usually such requests are approved automatically.
    ![img_1.png](img_1.png)  
